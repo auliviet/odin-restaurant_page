@@ -3,6 +3,7 @@ import "./index.css";
 
 export default function home() {
     let container = document.querySelector("#content");
+    container.textContent = "";
     
     const logo = document.createElement("img");
     logo.src = logoSrc;
