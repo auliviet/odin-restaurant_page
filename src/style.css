@@ -1,4 +1,6 @@
 body {
+  display: flex;
+  flex-flow: column;
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -54,11 +56,27 @@ nav {
 }
 
 #content {
-  padding: 16px 32px;
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+  padding: 0 32px;
 
   @media (min-width: 768px) {
     width: 80%;
     margin: auto;
-    padding: 16px 0;
+    padding: 0;
+  }
+
+  & h1 {
+    margin: 0;
+    font-size: 72px;
+    line-height: 72px;
+    color: #BE1E2E;
+  }
+
+  & h2 {
+    margin: 0;
+    font-size: 36px;
+    line-height: 72px;
   }
 }

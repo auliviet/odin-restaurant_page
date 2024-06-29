@@ -2,8 +2,9 @@
 import "./style.css"
 
 // Pages
-import home from "./pages/home/";
-import about from "./pages/about/";
+import home from "./pages/home";
+import menu from "./pages/menu";
+import about from "./pages/about";
 
 // Event listeners
 let buttons = document.querySelectorAll("button");
