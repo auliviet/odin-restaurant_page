@@ -1,3 +1,7 @@
+.home {
+  flex-flow: column;
+}
+
 .home__headings {
   flex: 1;
   display: flex;

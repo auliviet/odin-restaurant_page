@@ -1,3 +1,7 @@
+.menu {
+  flex-flow: column;
+}
+
 .menu__wrapper {
   display: flex;
   flex-flow: row;
