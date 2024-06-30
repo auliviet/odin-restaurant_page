@@ -60,16 +60,12 @@ export default function menu() {
 
             let menuItem = document.createElement("p");
             menuItem.className = "menu__row-item";
-            menuItem.textContent = item.name;
+            menuItem.textContent = item.name.toUpperCase();
             menuRow.append(menuItem);
-
-            let menuSpacer = document.createElement("div");
-            menuSpacer.className = "menu__row-spacer";
-            menuRow.append(menuSpacer);
 
             let menuPrice = document.createElement("p");
             menuPrice.className = "menu__row-price";
-            menuPrice.textContent = item.price;
+            menuPrice.textContent = `$${item.price}`;
             menuRow.append(menuPrice);
             
             container.append(menuRow);
