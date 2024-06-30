@@ -4,7 +4,8 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  background: linear-gradient(#83FFFF, #31E2FF);
+  background: url('./assets/pattern.png'), linear-gradient(#83FFFF, #31E2FF); 
+  background-size: contain;
   font-family: "Comic Sans MS", sans-serif;
 }
 
