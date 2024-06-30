@@ -4,6 +4,7 @@ import mrKrab from "./mrKrab.png"
 
 export default function about() {
     let container = document.querySelector("#content");
+    container.className = "about";
     container.textContent = "";
 
     let mrKrabImg = new Image();
@@ -22,7 +23,7 @@ export default function about() {
     headings.append(subTitle);
 
     const paragraph = document.createElement("p");
-    paragraph.textContent = "The Krusty Krab is a fast food restaurant founded and owned by Eugene H. Krabs. It is also the most popular and best known restaurant in Bikini Bottom. \n Famous for its Krabby Patty burgers, with its secret recipe."
+    paragraph.textContent = "The Krusty Krab is a fast food restaurant founded and owned by Eugene H. Krabs. It is also the most popular and best known restaurant in Bikini Bottom. Famous for its Krabby Patty burgers, with its secret recipe."
     headings.append(paragraph);
 
     container.append(headings);
