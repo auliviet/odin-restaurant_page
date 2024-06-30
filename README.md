@@ -2,7 +2,7 @@
 Exercise for the Odin Project - Full-stack JavaScript on ES6 Modules and Webpack
 
 ## Preview link
-[To be added]
+https://auliviet.github.io/odin-restaurant_page/
 
 ## Instructions
 - Run npm init in your project directory to generate a package.json file.
